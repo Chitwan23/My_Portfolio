@@ -305,6 +305,7 @@ img {
 }
 .skills__img {
   border-radius: 0.5rem;
+  max-width: 390%;
 }
 
 /* ===== WORK =====*/
@@ -484,4 +485,20 @@ img {
   .home__img {
     width: 450px;
   }
+}
+.skills__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.skills__item {
+  background-color: #f1f1f1;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 0.875rem; /* Adjust the font size as needed */
+  color: var(--second-color);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
